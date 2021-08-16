@@ -1,0 +1,21 @@
+name: Cobalt
+version: ${project.version}
+main: me.zdellarocco.cobalt.Cobalt
+api-version: 1.17
+authors: [ zdellarocco ]
+description: Essentials Replacement Plugin
+commands:
+  credits:
+    description: Says who made this plugin :)
+    usage: /<command>
+    aliases: [cred]
+  mode:
+    description: Changes gamemode of the player
+    usage: /<command> [gamemode]
+    aliases: [m]
+  deltnt:
+    description: Sets TNT to be removed
+    usage: /<command> [true/false]
+  chelp:
+    description: Help Command
+    usage: /<command>
