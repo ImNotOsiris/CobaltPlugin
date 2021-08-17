@@ -19,3 +19,6 @@ commands:
   chelp:
     description: Help Command
     usage: /<command>
+  modeall:
+    description: Sets every player into a specified game mode.
+    usage: /<command> [gamemode]
